@@ -1,0 +1,15 @@
+# Declare default behavior - all files will always have CRLF line endings on checkout
+* text=auto
+
+# Declare that follow windows line endings
+*.js text eol=crlf
+*.json text eol=crlf
+*.css text eol=crlf
+*.md text eol=crlf
+
+.editorconfig text eol=crlf
+.gitattributes text eol=crlf
+.gitignore text eol=crlf
+.bowerrc text eol=crlf
+.jshintrc text eol=crlf
+
